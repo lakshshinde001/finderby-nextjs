@@ -44,7 +44,7 @@ function Footer() {
 function MainContent() {
     return (
       <div className="container mx-auto text-center text-white py-24 px-6 flex flex-col justify-center items-center "> {/* Added min-h-screen and flex properties */}
-        <h1 className="text-5xl font-bold mb-4">Welcome to Your E-Commerce Store</h1>
+        <h1 className="text-5xl font-bold mb-4">Welcome to Finderby</h1>
         <p className="text-lg mb-8">Discover the latest trends and shop your favorites.</p>
         <div className="flex justify-center space-x-4">
           <a href="/shop" className="bg-white text-purple-600 py-3 px-8 rounded-full text-lg font-semibold hover:bg-purple-700 hover:text-white transition duration-300 shadow-md">Shop Now</a>
@@ -61,45 +61,45 @@ function MainContent() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <Shop
           image="shop1.jpg"
-          name="Shop 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          location="New York"
-          category="Fashion"
+          name="Darshana Enterprises"
+          description="All Types of Accessories Available at Cheap Rate"
+          location="Behind Main Ground, Gokhle nagar"
+          category="Accessories"
         />
         <Shop
           image="shop2.jpg"
-          name="Shop 2"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          location="Los Angeles"
-          category="Electronics"
+          name="Medico Pharmacy"
+          description="Chemist and Drugist Medicines are available"
+          location="Sheti Mahamandal Chowk, Gokhle Nagar"
+          category="Medical"
         />
         <Shop
           image="shop3.jpg"
-          name="Shop 3"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          location="Chicago"
-          category="Home & Garden"
+          name="Vinay Kirana Store"
+          description="All types of Daily Needs products are available at cheap rate"
+          location="Hanuman nagar Wadarwadi, Gokhle Nagar"
+          category="Daily Needs"
         />
         <Shop
           image="shop4.jpg"
-          name="Shop 4"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          location="San Francisco"
+          name="Shinde Xerox"
+          description="All types of Online works are Done Here"
+          location="FC Road, Shivaji Nagar Pune"
           category="Books"
         />
         <Shop
           image="shop5.jpg"
-          name="Shop 5"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          location="Seattle"
-          category="Sports & Outdoors"
+          name="Rahul Books Store"
+          description="All types of Books are Done Here"
+          location="Books"
+          category="Books"
         />
         <Shop
           image="shop6.jpg"
-          name="Shop 6"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          location="Miami"
-          category="Health & Beauty"
+          name="Aaditya watch centre"
+          description="All types of Watches are available at cheap rates"
+          location="Pune"
+          category="Fashion"
         />
       </div>
 
